@@ -1,0 +1,13 @@
+{
+  "id": "friend-radar",
+  "name": "Friend Radar",
+  "version": "1.1.0",
+  "type": "app",
+  "summary": "Spot friends' EWatches nearby over Bluetooth, then buzz and share an animation when a mate comes close.",
+  "description": "Friend Radar turns your EWatch into a radar for friends. Watches running it find each other over Bluetooth LE and appear on a lit sonar scope, placed by distance zone: right here, near, around or far. Save friends as mates, and when one comes near both watches buzz and play the same animation, unique to the pair, at the same moment. Shake wrists together to celebrate. Calibrate with a friend at 1 m for better zones, and optionally keep listening while the watch sleeps. Your watch is only visible while the app is open or background alerts are on.",
+  "author": "Kyle Hanning",
+  "license": "MIT",
+  "base": "EWatch BaseOS @ dbe73c2",
+  "capabilities": ["ble", "background-ble", "rtc-wake", "haptic", "touch", "imu", "storage", "wifi", "serial"],
+  "icon": "icon.svg"
+}

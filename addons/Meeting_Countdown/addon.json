@@ -1,0 +1,13 @@
+{
+  "id": "meeting-countdown",
+  "name": "Meeting Countdown",
+  "version": "1.0.0",
+  "type": "watchface",
+  "summary": "A ring drains toward your next meeting, and the watch buzzes five minutes before it starts, even asleep.",
+  "description": "Your calendar, at a glance. A bold ring around the screen drains over the last hour before your next event, shifting from calm mint through amber to red, with the time, the event, its start time and \"in 23 min\" in the middle. During a meeting the ring shows how far through you are and what's next. Five minutes before an event the watch wakes and taps your wrist with its own pattern; snooze it or dismiss it. Events come from your calendar's private iCal (.ics) address over WiFi, synced in the background while the watch sleeps, from the watch's web page, or over the USB cable. Recurring meetings, time zones, daylight saving and cancelled instances are handled. The classic BaseOS faces stay one setting away.",
+  "author": "Kyle Hanning",
+  "license": "MIT",
+  "base": "EWatch BaseOS @ dbe73c2",
+  "capabilities": ["haptic", "touch", "wifi", "rtc-wake", "serial", "storage"],
+  "icon": "icon.svg"
+}

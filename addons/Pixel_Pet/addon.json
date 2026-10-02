@@ -1,0 +1,13 @@
+{
+  "id": "pixel-pet",
+  "name": "Stepmunk",
+  "version": "1.0.0",
+  "type": "game",
+  "summary": "A pixel pet that only eats when you walk. Skip your steps and it gets visibly grumpy.",
+  "description": "Stepmunk lives on your watch face, and its only food is your footsteps. Every 400 steps earns it a snack (with a happy little buzz); skip your walks and it slides from happy to peckish to grumpy, crossing its arms and tapping its foot, until it stomps under a storm cloud and finally turns its back to sulk. Walk and you'll watch it cheer up snack by snack. Steps keep counting in the background with the screen off. Hatch it from an egg with your first walk, grow it through four stages, keep a daily step streak to unlock hats and a crown, and check today, your week and your streak in the Stepmunk app.",
+  "author": "Kyle Hanning",
+  "license": "MIT",
+  "base": "EWatch BaseOS @ dbe73c2",
+  "capabilities": ["imu", "haptic", "touch", "rtc-wake", "background-steps", "serial", "storage"],
+  "icon": "icon.svg"
+}

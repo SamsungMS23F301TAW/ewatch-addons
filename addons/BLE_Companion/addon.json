@@ -1,0 +1,19 @@
+{
+  "id": "ble-companion",
+  "name": "EWatch Companion",
+  "version": "1.1.0",
+  "type": "tool",
+  "summary": "Restyle your watch live over Bluetooth: the new Halo face, colours, complications, weather and countdowns.",
+  "description": "Open Companion on the watch, visit the Companion page in Chrome or Edge and type the 6-digit code the watch shows. Every change then appears instantly, with no reflashing: theme colours, brightness, clock style, 12-hour time, and four complications around the time that can show seconds, the date, battery, your own text, or live values such as the weather or a countdown to your next meeting. Version 1.1 adds Halo, an anti-aliased face lit by your theme's accent (the new default; the BaseOS styles are still there), redraws the pairing and message screens to match, and gives the page live previews of every theme and face. The page also syncs the time and can send a message to your wrist. Settings are saved on the watch, and the rest of the watch works exactly as before.",
+  "author": "Kyle Hanning",
+  "license": "MIT",
+  "base": "EWatch BaseOS @ dbe73c2",
+  "capabilities": [
+    "ble",
+    "haptic",
+    "touch",
+    "storage",
+    "serial"
+  ],
+  "icon": "icon.svg"
+}

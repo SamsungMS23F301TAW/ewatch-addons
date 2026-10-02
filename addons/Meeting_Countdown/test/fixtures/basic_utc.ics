@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+PRODID:-//Test//Meeting Countdown//EN
+VERSION:2.0
+X-WR-CALNAME:Work
+BEGIN:VEVENT
+UID:evt-1@test
+DTSTAMP:20260901T000000Z
+DTSTART:20261001T090000Z
+DTEND:20261001T093000Z
+SUMMARY:Design review\, round 2\; final
+LOCATION:Room 4.12
+DESCRIPTION:Agenda item with plenty of words to make this line long; Agenda
+  item with plenty of words to make this line long; Agenda item with plenty
+  of words to make this line long; Agenda item with plenty of words to make
+  this line long; Agenda item with plenty of words to make this line long; 
+ Agenda item with plenty of words to make this line long; Agenda item with 
+ plenty of words to make this line long; Agenda item with plenty of words t
+ o make this line long; Agenda item with plenty of words to make this line 
+ long; Agenda item with plenty of words to make this line long; Agenda item
+  with plenty of words to make this line long; Agenda item with plenty of w
+ ords to make this line long; Agenda item with plenty of words to make this
+  line long; Agenda item with plenty of words to make this line long; Agend
+ a item with plenty of words to make this line long; Agenda item with plent
+ y of words to make this line long; Agenda item with plenty of words to mak
+ e this line long; Agenda item with plenty of words to make this line long;
+  Agenda item with plenty of words to make this line long; Agenda item with
+  plenty of words to make this line long; Agenda item with plenty of words 
+ to make this line long; Agenda item with plenty of words to make this line
+  long; Agenda item with plenty of words to make this line long; Agenda ite
+ m with plenty of words to make this line long; Agenda item with plenty of 
+ words to make this line long; Agenda item with plenty of words to make thi
+ s line long; Agenda item with plenty of words to make this line long; Agen
+ da item with plenty of words to make this line long; Agenda item with plen
+ ty of words to make this line long; Agenda item with plenty of words to ma
+ ke this line long; Agenda item with plenty of words to make this line long
+ ; Agenda item with plenty of words to make this line long; Agenda item wit
+ h plenty of words to make this line long; Agenda item with plenty of words
+  to make this line long; Agenda item with plenty of words to make this lin
+ e long; Agenda item with plenty of words to make this line long; Agenda it
+ em with plenty of words to make this line long; Agenda item with plenty of
+  words to make this line long; Agenda item with plenty of words to make th
+ is line long; Agenda item with plenty of words to make this line long; 
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder text that must not override
+SUMMARY:Alarm summary must be ignored
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-2@test
+DTSTART:20261001T130000Z
+DURATION:PT45M
+SUMMARY:CafÃ© catch-up with ZoÃ
+ « ðŸŽ‰
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-old
+DTSTART:20260930T090000Z
+DTEND:20260930T100000Z
+SUMMARY:Yesterday
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-far
+DTSTART:20261010T090000Z
+DTEND:20261010T100000Z
+SUMMARY:Next week
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-now
+DTSTART:20261001T073000Z
+DTEND:20261001T083000Z
+SUMMARY:Early sync
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-cancel
+DTSTART:20261001T150000Z
+DTEND:20261001T160000Z
+STATUS:CANCELLED
+SUMMARY:Cancelled thing
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261002T100000Z
+SUMMARY:Reminder without end
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-travel
+DTSTART:20261002T120000Z
+DTEND:20261002T130000Z
+X-APPLE-TRAVEL-DURATION;VALUE=DURATION:PT20M
+SUMMARY:Lunch across town
+END:VEVENT
+END:VCALENDAR

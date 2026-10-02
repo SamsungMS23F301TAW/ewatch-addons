@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Dayprint: a rising sun over layered ridges, an orbit, and a trail of steps. -->
+  <defs>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="512" height="512" fill="#1C1633"/>
+    <path d="M96 168 A 196 196 0 0 1 416 168" fill="none" stroke="#7BDFF2" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="256" cy="300" r="104" fill="#F7A65A"/>
+    <path d="M0 312 C 86 270 150 286 220 306 C 300 328 380 288 512 262 L 512 512 L 0 512 Z" fill="#E0567A"/>
+    <path d="M0 372 C 110 336 190 360 270 374 C 350 388 430 360 512 342 L 512 512 L 0 512 Z" fill="#8B2F6B"/>
+    <path d="M0 430 C 120 404 210 422 300 432 C 380 440 450 424 512 414 L 512 512 L 0 512 Z" fill="#3E1F4F"/>
+    <g fill="#FFE9D2">
+      <circle cx="150" cy="466" r="16"/>
+      <circle cx="208" cy="444" r="16"/>
+      <circle cx="266" cy="458" r="16"/>
+      <circle cx="324" cy="436" r="16"/>
+      <circle cx="382" cy="450" r="16"/>
+    </g>
+  </g>
+</svg>

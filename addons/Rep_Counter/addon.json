@@ -1,0 +1,13 @@
+{
+  "id": "rep-counter",
+  "name": "Rep Counter",
+  "version": "1.0.0",
+  "type": "app",
+  "summary": "Counts curls, presses, raises and rows from your wrist, buzzes when a set is done and times your rest.",
+  "description": "Start a workout and just lift. Rep Counter reads your watch's motion sensor 100 times a second, tells curls and raises (the forearm swings) apart from presses and rows (the hand travels while the forearm stays put), and shows the count huge enough to read mid-set. When you stop, it buzzes a distinct pattern, shows the set's reps and tempo, and starts a rest timer that nudges you when your rest goal is up. Today's sets and a week of totals are kept on the watch. Pick the exercise yourself or leave it on Auto; walking, running and everyday arm movement are filtered out.",
+  "author": "Kyle Hanning",
+  "license": "MIT",
+  "base": "EWatch BaseOS @ dbe73c2",
+  "capabilities": ["imu", "haptic", "touch", "serial", "storage"],
+  "icon": "icon.svg"
+}

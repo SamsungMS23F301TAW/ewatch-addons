@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Friend Radar: a lit sonar scope. Gunmetal bezel, phosphor glass with a
+       sweep and its afterglow, two friends as glowing orbs, you in the middle. -->
+  <defs>
+    <radialGradient id="room" cx="50%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#0E1A1C"/>
+      <stop offset="1" stop-color="#05080B"/>
+    </radialGradient>
+    <linearGradient id="bezel" x1="0.15" y1="0.1" x2="0.85" y2="0.95">
+      <stop offset="0" stop-color="#C9D3D8"/>
+      <stop offset="0.18" stop-color="#5E6B73"/>
+      <stop offset="0.5" stop-color="#262E34"/>
+      <stop offset="1" stop-color="#0B0F12"/>
+    </linearGradient>
+    <linearGradient id="lip" x1="0.85" y1="0.95" x2="0.15" y2="0.1">
+      <stop offset="0" stop-color="#8A979E"/>
+      <stop offset="0.45" stop-color="#1A2126"/>
+      <stop offset="1" stop-color="#05080A"/>
+    </linearGradient>
+    <radialGradient id="glass" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#0F3A31"/>
+      <stop offset="0.7" stop-color="#06201B"/>
+      <stop offset="1" stop-color="#020807"/>
+    </radialGradient>
+    <radialGradient id="amber" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#FFF1C9"/>
+      <stop offset="0.35" stop-color="#FFC04F"/>
+      <stop offset="1" stop-color="#8A5410"/>
+    </radialGradient>
+    <radialGradient id="lilac" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#F6EEFF"/>
+      <stop offset="0.35" stop-color="#C6A2FF"/>
+      <stop offset="1" stop-color="#5A3E8E"/>
+    </radialGradient>
+    <radialGradient id="haloA" r="50%"><stop offset="0" stop-color="#FFB547" stop-opacity="0.55"/><stop offset="1" stop-color="#FFB547" stop-opacity="0"/></radialGradient>
+    <radialGradient id="haloL" r="50%"><stop offset="0" stop-color="#C9A6FF" stop-opacity="0.5"/><stop offset="1" stop-color="#C9A6FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="you" r="50%"><stop offset="0" stop-color="#C6FFEC"/><stop offset="0.4" stop-color="#4CF2B8" stop-opacity="0.6"/><stop offset="1" stop-color="#4CF2B8" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="url(#room)"/>
+  <circle cx="256" cy="268" r="214" fill="#000" fill-opacity="0.45"/>
+  <!-- bezel and recessed glass -->
+  <circle cx="256" cy="256" r="212" fill="url(#bezel)"/>
+  <circle cx="256" cy="256" r="174" fill="url(#lip)"/>
+  <circle cx="256" cy="256" r="166" fill="url(#glass)"/>
+  <!-- engraved zone grooves -->
+  <g fill="none" stroke="#010403" stroke-width="5">
+    <circle cx="256" cy="256" r="44"/>
+    <circle cx="256" cy="256" r="92"/>
+    <circle cx="256" cy="256" r="134"/>
+  </g>
+  <!-- sweep afterglow: wedges fading behind the leading edge -->
+  <g fill="#4CF2B8">
+    <path d="M256 256 L401.8 179.4 A166 166 0 0 0 376.9 142.4 Z" fill-opacity="0.42"/>
+    <path d="M256 256 L376.9 142.4 A166 166 0 0 0 343.6 115.1 Z" fill-opacity="0.26"/>
+    <path d="M256 256 L343.6 115.1 A166 166 0 0 0 304.2 97.2 Z" fill-opacity="0.15"/>
+    <path d="M256 256 L304.2 97.2 A166 166 0 0 0 262 90.1 Z" fill-opacity="0.07"/>
+  </g>
+  <line x1="256" y1="256" x2="401.8" y2="179.4" stroke="#C6FFEC" stroke-width="7" stroke-linecap="round"/>
+  <!-- friends -->
+  <circle cx="330" cy="178" r="68" fill="url(#haloA)"/>
+  <circle cx="330" cy="178" r="30" fill="url(#amber)"/>
+  <circle cx="176" cy="326" r="70" fill="url(#haloL)"/>
+  <circle cx="176" cy="326" r="30" fill="url(#lilac)"/>
+  <!-- you -->
+  <circle cx="256" cy="256" r="34" fill="url(#you)"/>
+  <circle cx="256" cy="256" r="11" fill="#E8FFF7"/>
+  <!-- glass reflection -->
+  <path d="M120 214 A142 142 0 0 1 222 112" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="9" stroke-linecap="round"/>
+</svg>

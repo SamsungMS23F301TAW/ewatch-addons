@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>EWatch Companion</title>
+  <rect width="512" height="512" rx="112" fill="#0a0f1e"/>
+  <rect x="190" y="34" width="132" height="96" rx="22" fill="#222b3c"/>
+  <rect x="190" y="382" width="132" height="96" rx="22" fill="#222b3c"/>
+  <rect x="380" y="206" width="22" height="80" rx="9" fill="#3a4559"/>
+  <rect x="122" y="92" width="268" height="328" rx="78" fill="#3a4559"/>
+  <rect x="140" y="110" width="232" height="292" rx="62" fill="#060912"/>
+  <circle cx="256" cy="228" r="104" fill="#3f63ff" opacity=".22"/>
+  <circle cx="256" cy="228" r="74" fill="#5578ff" opacity=".42"/>
+  <circle cx="256" cy="228" r="46" fill="#7d97ff"/>
+  <path d="M236 210 L276 244 L256 262 L256 194 L276 212 L236 246" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="178" y="336" width="156" height="34" rx="17" fill="#1b2442"/>
+  <rect x="196" y="350" width="64" height="6" rx="3" fill="#7d97ff"/>
+</svg>

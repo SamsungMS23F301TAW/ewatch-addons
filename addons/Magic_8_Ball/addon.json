@@ -1,0 +1,13 @@
+{
+  "id": "shake-oracle",
+  "name": "Shake Oracle",
+  "version": "1.0.0",
+  "type": "app",
+  "summary": "Ask a question, shake your wrist, and a glowing die rises from the deep with your answer.",
+  "description": "A glossy black oracle ball for your wrist. Ask a question, give the watch a good shake and feel the die churn in the murky blue liquid. When you stop, it floats up, knocks against the glass with a satisfying thunk and wobbles to rest with its answer. Thirty original answers in a playful voice, three more packs (Yes/No, Food and Excuses: swipe up or down) and a rare golden answer. Everything runs on the watch; no phone or network needed.",
+  "author": "Kyle Hanning",
+  "license": "MIT",
+  "base": "EWatch BaseOS @ dbe73c2",
+  "capabilities": ["imu", "haptic", "touch", "storage", "serial"],
+  "icon": "icon.svg"
+}

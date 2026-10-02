@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128">
+  <!-- Rep Counter: a dumbbell inside a rep-progress ring. Original artwork. -->
+  <rect width="128" height="128" rx="28" fill="#101317"/>
+  <circle cx="64" cy="64" r="42" fill="none" stroke="#262c34" stroke-width="11"/>
+  <circle cx="64" cy="64" r="42" fill="none" stroke="#9ee660" stroke-width="11"
+          stroke-linecap="round" stroke-dasharray="198 264" transform="rotate(-90 64 64)"/>
+  <g fill="#f4f6f8">
+    <rect x="40" y="60.5" width="48" height="7" rx="3.5"/>
+    <rect x="44" y="47" width="9" height="34" rx="4"/>
+    <rect x="75" y="47" width="9" height="34" rx="4"/>
+    <rect x="36" y="53" width="7" height="22" rx="3"/>
+    <rect x="85" y="53" width="7" height="22" rx="3"/>
+  </g>
+</svg>

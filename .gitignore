@@ -1,0 +1,16 @@
+# Build output: rebuild with `pio run` or `python3 tools/package_addon.py`
+.pio/
+dist/
+addons/*/build/
+**/.scratch/
+__pycache__/
+
+# Upstream EWatch_Dev is Ewan's own repo, cloned locally for reference (see README)
+EWatch_Dev/
+
+# Local-only snapshots
+_ui_v1_backup/
+
+# OS / editor noise
+.DS_Store
+.vscode/

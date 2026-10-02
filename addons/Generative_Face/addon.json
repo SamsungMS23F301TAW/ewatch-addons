@@ -1,0 +1,20 @@
+{
+  "id": "generative-face",
+  "name": "Dayprint",
+  "version": "1.0.0",
+  "type": "watchface",
+  "summary": "A new artwork every day, seeded by the date and grown by your steps, kept in a year-long gallery.",
+  "description": "Dayprint turns your watch face into a daily generative artwork. The date chooses one of seven composition families (flow fields, orbits, woven tiles, gardens, topographic maps, stained glass and dunes) with its own palette, and every 250 steps grows the piece: more strokes, branches, lit glass or a longer trail across the map. Steps keep counting with the screen off, every day is kept in an on-watch Gallery (with a weekly remix), and a USB snapshot tool saves any day as a PNG or the whole year as a poster. The art is fully deterministic, so a day re-renders exactly the same years later.",
+  "author": "Kyle Hanning",
+  "license": "MIT",
+  "base": "EWatch BaseOS @ dbe73c2",
+  "capabilities": [
+    "imu",
+    "haptic",
+    "touch",
+    "background-steps",
+    "serial",
+    "storage"
+  ],
+  "icon": "icon.svg"
+}

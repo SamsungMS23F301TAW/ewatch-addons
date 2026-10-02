@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Tilt Parallax</title>
+  <defs>
+    <clipPath id="tile">
+      <rect x="0" y="0" width="256" height="256" rx="56" ry="56"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <!-- sky: two flat bands -->
+    <rect x="0" y="0" width="256" height="256" fill="#4E8BDD"/>
+    <rect x="0" y="92" width="256" height="164" fill="#93BCEE"/>
+    <!-- sun -->
+    <circle cx="180" cy="66" r="24" fill="#FFE39C"/>
+    <!-- far range echo, offset left: the layers slide as the wrist tilts -->
+    <path d="M-10 170 L30 120 L56 142 L94 86 L126 128 L152 106 L190 150 L224 114 L266 160 L266 256 L-10 256 Z"
+          fill="#FFFFFF" fill-opacity="0.38" transform="translate(-16 0)"/>
+    <!-- far range -->
+    <path d="M-10 170 L30 120 L56 142 L94 86 L126 128 L152 106 L190 150 L224 114 L266 160 L266 256 L-10 256 Z"
+          fill="#C4CFEE"/>
+    <path d="M94 86 L109 108 L100 103 L94 111 L86 101 L79 107 Z" fill="#FFFFFF"/>
+    <path d="M224 114 L234 128 L226 124 L220 130 L214 123 Z" fill="#FFFFFF"/>
+    <!-- middle range -->
+    <path d="M-10 198 L36 152 L70 184 L112 142 L156 188 L196 158 L266 202 L266 256 L-10 256 Z"
+          fill="#7284B6"/>
+    <!-- near hill with pines -->
+    <path d="M-10 224 C 50 198, 110 202, 160 216 C 200 227, 236 216, 266 208 L266 256 L-10 256 Z"
+          fill="#2E604F"/>
+    <path d="M194 216 L209 176 L224 216 Z" fill="#1D4637"/>
+    <path d="M214 214 L227 168 L241 214 Z" fill="#1D4637"/>
+    <path d="M28 224 L41 190 L54 224 Z" fill="#1D4637"/>
+  </g>
+</svg>

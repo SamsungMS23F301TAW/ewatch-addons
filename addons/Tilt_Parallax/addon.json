@@ -1,0 +1,13 @@
+{
+  "id": "tilt-parallax",
+  "name": "Tilt Parallax",
+  "version": "1.0.0",
+  "type": "watchface",
+  "summary": "A layered landscape that shifts with your wrist, so the flat screen reads as a window into a 3D scene.",
+  "description": "Four hand-built procedural landscapes (Alpine, Coast, City, Desert) drawn as stacked layers that slide by depth as you tilt your wrist, eased by a critically damped spring. The sky follows the real time of day and season: dawn alpenglow, golden hours, sunsets over the sea, starry nights with the correct moon phase, lighthouse and city windows that light up after dusk. The time floats in the scene with a soft shadow and stays crisp. Tap to change scene; long-press for options (scene, depth, 12/24-hour, ambient motion, classic face).",
+  "author": "Kyle Hanning",
+  "license": "MIT",
+  "base": "EWatch BaseOS @ dbe73c2",
+  "capabilities": ["imu", "haptic", "touch", "wifi", "serial", "storage"],
+  "icon": "icon.svg"
+}

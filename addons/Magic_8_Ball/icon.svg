@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Shake Oracle</title>
+  <!-- Glossy black ball -->
+  <circle cx="128" cy="128" r="122" fill="#0d0f15"/>
+  <path d="M 52 74 A 92 92 0 0 1 120 30 A 104 104 0 0 0 70 98 Z" fill="#ffffff" fill-opacity="0.32"/>
+  <!-- Window and liquid -->
+  <circle cx="128" cy="128" r="84" fill="#2a2f3d"/>
+  <circle cx="128" cy="128" r="78" fill="#0b2a86"/>
+  <!-- The die -->
+  <polygon points="128,72 177,157 79,157" fill="#4f7dff" stroke="#4f7dff" stroke-width="16" stroke-linejoin="round"/>
+  <!-- A question in the deep -->
+  <path d="M 116 112 A 12.5 12.5 0 1 1 134 123.5 C 129.5 126.5 128 129 128 134" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="128" cy="148" r="5" fill="#ffffff"/>
+</svg>
